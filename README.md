@@ -86,3 +86,8 @@ Emadeldeen Eldele
 School of Computer Science and Engineering (SCSE)   
 Nanyang Technological University, Singapore   
 Email: emad0002{at}e.ntu.edu.sg   
+
+
+ python train_Kfold_CV.py --device 0 --fold_id 10 --np_data_dir D:\download\datasets\Preprocessed_Sleep-EDF-20
+ conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia
+ pip install -r requirement.txt  -i https://mirrors.aliyun.com/pypi/simple
