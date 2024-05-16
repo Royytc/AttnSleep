@@ -37,7 +37,7 @@ def load_folds_data(np_data_path, n_folds):
     files_dict = dict()
     for i in files:
         file_name = os.path.split(i)[-1] 
-        file_num = file_name[3:5]
+        file_num = file_name[3:6]
         if file_num not in files_dict:
             files_dict[file_num] = [i]
         else:
